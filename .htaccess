@@ -1,2 +1,2 @@
-DirectoryIndex index.html
+DirectoryIndex index.php
 AddType application/x-httpd.php htm html
