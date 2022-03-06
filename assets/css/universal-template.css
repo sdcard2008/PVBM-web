@@ -1,0 +1,85 @@
+body {
+    margin:30px;
+    padding:5px;
+    border:10px solid red;
+    border-radius:10px;
+    height:fit-content;
+}
+div#box {
+    background-image:url('image/box_bg.jpg');
+    width:auto;
+    height:200px;
+    text-align:center;
+} 
+@font-face {
+    font-family: Sigmar One;
+    src: url(fonts/SigmarOne-Regular.ttf);
+}
+@font-face {
+    font-family: Sqada;
+    src: url(fonts/SquadaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Pattaya;
+    src: url(fonts/Pattaya-Regular.ttf);
+}
+@font-face {
+    font-family: Zcool;
+    src: url(fonts/ZCOOLKuaiLe-Regular.ttf);
+}
+@font-face {
+    font-family: Academy;
+    src: url(fonts/AcademyFilled3D.ttf);
+}
+@font-face {
+    font-family: Gemunu;
+    src: url(fonts/GemunuLibre-Bold.ttf);
+}
+.title{
+   text-align:center;
+   font-family:Sigmar One , sans-serif;
+   color:#f1900f
+}
+.paragraph{
+    font-family:Sqada , sans-serif;
+}
+.tools{
+    width:fit-content;
+    height:fit-content;
+    background-color:#4b7eeb;
+    font-family:Zcool , monospace;
+    display:inline-block;
+    padding:10px;
+    margin:5px;
+    color:rgb(241, 238, 232);
+    font-size:20px;
+    
+}
+.tools>img {
+    width:10px;
+    height:10px;
+}
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+   color:red;
+   
+}
+a:active{
+    color:black
+}
+
+#toolbar{
+    width:auto;
+    height: fit-content;
+    background-color:teal;
+    text-align:center;
+}
+
+
+img.logo {
+    height: 150px;
+    width: 150px;
+}

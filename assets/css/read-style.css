@@ -1,0 +1,12 @@
+div.books {
+    margin:10px;
+    border: 2px solid #767bc5;
+    background-color: wheat;
+    width:fit-content;
+    height:fit-content;
+    border-radius:5px;
+    border-style:inset;
+    display:inline-block;
+    vertical-align:top;
+    Padding:10px;
+}
